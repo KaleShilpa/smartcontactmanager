@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="base::layout(~{::section})">
+<head>
+	<meta charset="UTF-8" />
+	<title>Home Page</title>
+</head>
+<body>
+	 <section class="banner" id="bannerId">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-md-12 text-center">
+                    <h1>Welcome to Learning Bootstrap</h1>
+                    <p>Start collecting your contacts in very smarter way. We provide very efficient and smarter way of handling contacts.</p>
+                    
+                    <a href="#" th:href="@{/user/open-add-contact}" class="item"><i class="fas fa-pencil-alt"></i>Add Contact</a>
+                </div>
+
+            </div>
+
+        </div>
+
+      </section>
+</body>
+</html>

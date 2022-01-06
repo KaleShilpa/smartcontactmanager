@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="user/base::layout(~{::section})">
+<head>
+	<meta charset="UTF-8" />
+	<title>Home Page</title>
+</head>
+<body>
+	 <section>
+	 	<h1> User Dashboard</h1>
+	 	<a href="#" th:href="@{/user/open-add-contact}" class="item"><i class="fas fa-pencil-alt"></i>Add Contact</a>
+	 </section>
+</body>
+</html>
